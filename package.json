@@ -1,7 +1,7 @@
 {
   "name": "npmtest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Download projektet som ZIP-fil Åben projektet og kør kommandoen \"npm install\" i terminalen",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch --update --style=compressed css:css"
@@ -9,9 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "open": "^8.4.2"
   },
   "devDependencies": {
-    "sass": "^1.58.0"
+    "sass": "^1.59.2"
   }
 }

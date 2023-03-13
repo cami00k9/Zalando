@@ -12,8 +12,26 @@ $custom-colors: (
 	"farve": $cyan-400,
 );
 
+$grid-breakpoints: (
+				xs: 0,
+				sm: 576px,
+				md: 768px,
+				lg: 992px,
+				xl: 1200px,
+				xxl: 1400px
+);
+
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
 
+
 // 5. Du kan lave styling her...
+
+.container-fluid{
+	margin-top: 15px;
+}
+
+.container-fluid2{
+	margin-left: 50px;
+}
