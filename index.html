@@ -2,9 +2,9 @@
 <html lang="da">
 <head>
 	<meta charset="utf-8">
-	
+
 	<title>Zalando</title>
-	
+
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
@@ -18,38 +18,38 @@
 
 <body>
 
-<div class="container-fluid bg-light text-center">
-	<div class="row">
-		<div class="col">
-			<p>ALLE DANMARKS<span class="text-warning"> FAVORITMÆRKER</span></p>
-		</div>
-		<div class="col text-warning">
-			<p>GRATIS<span class="text-dark"> LEVERING OG REFUNDERING*</span></p>
-		</div>
-		<div class="col text-warning">
-			<p>100 DAGES<span class="text-dark"> RETURRET</span></p>
+<div class="grid">
+	<div class="container-fluid bg-light text-center fw-bold">
+		<div class="row">
+			<div class="col">
+				<p>ALLE DANMARKS<span class="text-warning"> FAVORITMÆRKER</span></p>
+			</div>
+			<div class="col text-warning">
+				<p>GRATIS<span class="text-dark"> LEVERING OG REFUNDERING*</span></p>
+			</div>
+			<div class="col text-warning">
+				<p>100 DAGES<span class="text-dark"> RETURRET</span></p>
+			</div>
 		</div>
 	</div>
-</div>
 
 <br>
 
-<div class="container-fluid2">
-	<div class="row">
-		<div class="col-md-3 d-flex align-items-center">
-			<div class="btn-group" role="group">
-				<button type="button" class="btn btn-dark">Dame</button>
-				<button type="button" class="btn btn-light">Herrer</button>
-				<button type="button" class="btn btn-light">Børn</button>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 d-flex align-items-center">
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-dark">Dame</button>
+					<button type="button" class="btn btn-light">Herrer</button>
+					<button type="button" class="btn btn-light">Børn</button>
+				</div>
 			</div>
-		</div>
 
-		<div class="col-md-6 text-center">
-			<img src="images/logo.png" alt="Logo" class="img-fluid" style="width: 150px;">
-		</div>
+			<div class="col-md-6 text-center">
+				<img src="images/logo.png" alt="Logo" class="img-fluid" style="width: 150px;">
+			</div>
 
 			<div class="col-md-3">
-				<!-- Ikonsektion -->
 				<div class="dropdown-menu d-flex justify-content-evenly">
 					<a class="dropdown-item" href="#"><i class="fa fa-user"></i></a>
 					<a class="dropdown-item" href="#"><i class="fa-solid fa-heart"></i></a>
@@ -106,12 +106,92 @@
 	</nav>
 </div>
 
-
-
-
-
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-4 bg-warning text-center">
+			<div class="row">
+				<div class="col-8 fw-bold font">
+					<p><h1>MAC x RICHARD QUINN</h1></p>
+					<p><h4>En opsigtsvækkende kollektion</h4></p>
+					<a href="#" class="bg-warning text-dark btn-white">
+						Shop nu <i class="fa fa-arrow-right"></i>
+					</a>
+				</div>
+				<div class="col-4">
+					<div class="row">
+						<div class="col-6">
+							<img src="images/billede1.webp" alt="Billede 1">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<br>
+
+	<div class="row" style="padding-left: 50px; padding-right: 10px;">
+		<div class="col-6">
+			<h2>Fortsæt med at shoppe</h2>
+		</div>
+	</div>
+	<div class="row" style="padding-left: 50px; padding-right: 10px;">
+		<div class="col-6">
+			<h2>Set for nylig</h2>
+		</div>
+	</div>
+
+</div>
+<div class="border p-3 my-3">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+		</ol>
+
+		<div class="carousel-inner">
+			<div class="item active">
+				<div class="row">
+					<div class="col-md-2">
+						<img src="images/Karousel1.png" alt="Image 1" style="width:100%">
+					</div>
+					<div class="col-md-2">
+						<img src="images/Karousel2.png" alt="Image 2" style="width:100%">
+					</div>
+					<div class="col-md-2">
+						<img src="images/Karousel3.png" alt="Image 3" style="width:100%">
+					</div>
+					<div class="col-md-2">
+						<img src="images/Karousel4.png" alt="Image 4" style="width:100%">
+					</div>
+					<div class="col-md-2">
+						<img src="images/Karousel5.png" alt="Image 5" style="width:100%">
+					</div>
+					<div class="col-md-2">
+						<img src="images/Karousel6.png" alt="Image 6" style="width:100%">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	</div>
+</div>
+
 </body>
 </html>

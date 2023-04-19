@@ -10,6 +10,7 @@ $link-decoration: none;
 // 4. Include any default map overrides here
 $custom-colors: (
 	"farve": $cyan-400,
+	"Grøn": $green-400
 );
 
 $grid-breakpoints: (
@@ -23,15 +24,33 @@ $grid-breakpoints: (
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
+
 @import "bootstrapComponents";
 
 
 // 5. Du kan lave styling her...
 
-.container-fluid{
-	margin-top: 15px;
-}
-
 .container-fluid2{
 	margin-left: 50px;
 }
+
+.col{
+	height: 50px;
+}
+
+.container-fluid3{
+	height: 100px;
+	box-sizing: border-box;
+	border: 0px;
+	line-height: 2rem;
+	letter-spacing:-.24px;
+	font-size: 1.5rem;
+}
+
+.carousel-inner img {
+	height: 7cm;
+	width: 5cm;
+	object-fit: cover;
+}
+
+
